@@ -1,13 +1,13 @@
 class Hola < Formula
   desc "Single-binary Mac setup tool - Brewfile + mise.toml + dotfiles"
   homepage "https://github.com/ratazzi/hola"
-  version "0.3.1"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ratazzi/hola/releases/download/v#{version}/hola-macos-aarch64"
-      sha256 "325291fd76cecf8a863f3ffb0a26659491f57a2dbd4c38b8de465c591196aee9"
+      sha256 "dc3e2cd234b0099a0a87625c181e5b32cdec87f4109485ba8480279eafa4e61c"
     end
   end
 
